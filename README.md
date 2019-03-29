@@ -45,8 +45,9 @@ To run a development server on your local computer, follow these basic steps:
 
 ```bash
 git clone ssh://git@github.com/xsf/xmpp.org.git
-# install Pelican and dependencies
 cd xmpp.org
+# install Pelican and dependencies
+pip install -r requirements.txt
 ```
 
 Running the server in development mode:
